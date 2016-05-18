@@ -1,0 +1,6 @@
+This is a sample txt file as an input to the program FileWordcount8b.
+This 
+file
+   
+is just 
+for testing my      program!
