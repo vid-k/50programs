@@ -1,6 +1,7 @@
-This is a sample txt file as an input to the program FileWordcount8b.
+This is a sample txt file as an input to the program FileWordCount4b.
 This 
 file
    
 is just 
 for testing my      program!
+This file is also used in the program FileStringOccurance4c.
