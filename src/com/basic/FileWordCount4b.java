@@ -20,6 +20,8 @@ public class FileWordCount4b {
                         wc++;
                 }
                 line = br.readLine();
+                br.close();
+                in.close();
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

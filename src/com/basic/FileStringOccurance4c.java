@@ -20,6 +20,8 @@ public class FileStringOccurance4c {
                     if (word[i].equals(str))
                         strMatchCount++;
                 line = br.readLine();
+                br.close();
+                in.close();
             }
 
         } catch (FileNotFoundException e) {
