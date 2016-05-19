@@ -3,7 +3,7 @@ package com.basic;
 
 import java.io.*;
 
-public class FileWordCount8b {
+public class FileWordCount4b {
 
     public static int wordCount(String filename) {
         int wc = 0;
