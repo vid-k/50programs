@@ -2,6 +2,9 @@ package com.basic;
 
 import java.util.*;
 
+//5. Collections.
+//c. Write a program which takes an input series as a1,a2,a3....an,b1,b2,b3...bn
+// and produces output as a1,b1,a2,b2,a3,b3.......,an,bn.
 
 public class Transpose5c {
 

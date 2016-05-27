@@ -3,6 +3,15 @@ package com.basic;
 
 import java.util.Scanner;
 
+//1. Loops:
+//h. Write a program  that prints a pattern like below.
+//      *
+//      **
+//      ***
+//      ****
+//      *****
+//      ******
+
 public class PrintPattern1h {
 
     public static void printAsterisks(int number) {
