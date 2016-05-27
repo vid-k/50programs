@@ -1,0 +1,3 @@
+- 20 more programs in sections Arrays and OOPS concepts
+- Tests including dataprovider, read from text file, read from excel
+- JDBC connection program - Need to verify my JDBC connection details
