@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Collections" verbose="1">
+    <test name="Functional">
+        <classes>
+            <class name="com.test.Arraylist5aTest"/>
+            <class name="com.test.Set5bTest"/>
+        </classes>
+    </test>
+</suite>
