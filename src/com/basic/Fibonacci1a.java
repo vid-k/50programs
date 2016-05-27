@@ -20,7 +20,7 @@ public class Fibonacci1a {
 		else
 		{		
 			//if only 2 iterations, then no need to loop
-			System.out.println("Fibonacci Series is: "+a+" "+b);
+			System.out.print("Fibonacci Series is: "+a+" "+b);
 			fib=a+b;
 			
 			//Already printed 0, 1. So num-2 is the remaining number of iterations

@@ -9,27 +9,21 @@ public class DivisibleBy1b {
 	public static String findDivisible(int number)
 	{
 		String s = null;
-		
-		if ((number%3 == 0) && (number%5 == 0))
-		{
-			s = "ping pong";
+		if (number!=0) {
+			if ((number % 3 == 0) && (number % 5 == 0))
+				s = "ping pong";
+			else if (number % 3 == 0)
+				s = "ping";
+			else if (number % 5 == 0)
+				s = "pong";
 		}
-		else if (number%3 == 0)
-		{ 
-			s = "ping";
-		}
-		else if (number%5 == 0)
-		{
-			s = "pong";
-		}
-
 		return s;
 	}
 	
 	
 	public static void main(String[] args) {
-		
-		int num = 25;
+
+		int num = 15;
 		String s = findDivisible(num);
 		if (s!=null)
 		{
