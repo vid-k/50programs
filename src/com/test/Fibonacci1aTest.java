@@ -2,65 +2,21 @@ package com.test;
 
 import com.basic.Fibonacci1a;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
 public class Fibonacci1aTest {
-	
-	@Test
-	public void testForTwo()
-	{
-		int f = 2;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,1);
+
+	@DataProvider (name = "data")
+	public Object[][] getdata() {
+		Object[][] data = {{-1, 0}, {0, 0}, {1, 0}, {2, 1}, {3, 1}, {4, 2}, {25, 46368}};
+		return data;
 	}
 
-	@Test
-	public void testForThree()
-	{
-		int f = 3;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,1);
+	@Test (dataProvider = "data")
+	public void testFibonacci(int fibnum, int expected) {
+		int actual = Fibonacci1a.findLastFibonacci(fibnum);
+		Assert.assertEquals(actual, expected);
 	}
-	
-	@Test
-	public void testForFour()
-	{
-		int f = 4;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,2);
-	}
-	
-	@Test
-	public void testForLargeNumber()
-	{
-		int f = 25;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,46368);
-	}
-	
-	@Test
-	public void testForOne()
-	{
-		int f = 1;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,0);
-	}
-	
-	@Test
-	public void testForZero()
-	{
-		int f = 0;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,0);
-	}
-	
-	@Test
-	public void testForNegative()
-	{
-		int f = -1;
-		int actual = Fibonacci1a.findLastFibonacci(f);
-		Assert.assertEquals(actual,0);
-	}
-	
 }
