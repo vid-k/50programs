@@ -32,6 +32,7 @@ public class Fibonacci1a {
 			System.out.print(" "+fib);
 			}
 		}
+
 		System.out.println("\n");
 		return fib;
 	} //end class
