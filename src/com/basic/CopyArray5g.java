@@ -2,6 +2,9 @@ package com.basic;
 
 import java.util.ArrayList;
 
+//5. Arrays.
+//g. Write a program to copy arraylist to an array.
+
 public class CopyArray5g {
 
     public static void main(String args[]) {

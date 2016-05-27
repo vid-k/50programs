@@ -2,6 +2,9 @@ package com.basic;
 
 import java.io.*;
 
+//4. File.
+//d. Write a program to search for a string in a file and then replace it with another string.
+
 public class FileStringReplace4d {
 
     public static void stringReplace(String filename, String origStr, String repStr) {

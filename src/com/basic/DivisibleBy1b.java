@@ -1,6 +1,8 @@
 package com.basic;
 
-import java.util.ArrayList;
+//1. Loops:
+//b. Write a program print "ping" if a number is divisible by 3,"pong" if a number is divisible by 5,
+// and "ping pong" if number is divisible by both, else print the number.
 
 public class DivisibleBy1b {
 

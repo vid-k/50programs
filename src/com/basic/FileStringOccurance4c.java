@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+//4. File.
+//c. Write a program to search for a string in a file
+// and then return the count of number of occurrences of the string.
 
 public class FileStringOccurance4c {
 

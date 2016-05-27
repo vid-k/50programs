@@ -2,6 +2,11 @@ package com.basic;
 
 import java.util.HashMap;
 
+//5. Arrays.
+//d. Write a program having below methods.
+//--> To create a hashmap.
+//--> To search for a key in the created map and then returns its value.
+
 public class HashMap5d {
 
     public static String getValueOfKey(HashMap myHT, int key) {

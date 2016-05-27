@@ -1,5 +1,8 @@
 package com.basic;
 
+//8. General
+//e. Write a program that contains a constructor, a static block and a static method.
+// Execute the program in order to verify the order to execution of methods and block.
 
 public class Car8e {
 

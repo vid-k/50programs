@@ -5,6 +5,13 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.ListIterator;
 
+//5. Arrays:
+//a. Write a program having different methods to perform below operations.
+//      --> To create an arraylist and add elements to it.
+//      --> To search for an element in the list.
+//      --> To print the elements of the list using iterator.
+//      --> To print the elements in the reverse order using ListIterator.
+
 public class Arraylist5a {
 
     public static ArrayList createArrayList() {

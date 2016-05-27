@@ -2,6 +2,9 @@ package com.basic;
 
 import java.util.Scanner;
 
+//1. Loops.
+//g. Write a program that accepts input from the command line and then prints them.
+
 public class CommandLine1g {
 
     public static void main(String args[]) {

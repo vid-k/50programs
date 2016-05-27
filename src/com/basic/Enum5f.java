@@ -3,6 +3,9 @@ package com.basic;
 import java.util.EnumSet;
 import java.util.Iterator;
 
+//5. Collections.
+//f. Write a program that defines an enum having months of the year and then prints the value of all the enum elements.
+
 public class Enum5f {
 
     private enum Month {
@@ -23,9 +26,8 @@ public class Enum5f {
         private Month(int value){
             this.monthNumber = value;
         }
+
     }
-
-
 
     public static void main(String args[]) {
         for (Month m: Month.values())

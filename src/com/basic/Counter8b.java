@@ -2,8 +2,10 @@ package com.basic;
 
 import static javafx.application.Platform.exit;
 
-//print 1 to 10 numbers without using loops and you should not have more than 1 print statement
-//using recursion
+//8. General
+//b. Write a program to print 1 to 10 numbers without using loops
+// and you should not have more than 1 print statement.
+//Using recursion
 
 public class Counter8b {
 

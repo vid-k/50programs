@@ -3,6 +3,13 @@ package com.basic;
 import java.io.*;
 import java.util.Scanner;
 
+//4. File.
+//a. Write a program that takes input from user dynamically using below classes.
+//  --> Scanner: Use this class to input 2 integer numbers and sum them.
+//  --> BufferedReader and InputStreamReader: Use this classes to input 2 integer numbers and subtract them.
+//  --> DatainputStream: Use this class to input 2 integer numbers and multiply them.
+//  --> Console: Use this class to input 2 integer numbers and divide them.
+
 public class File4a {
 
     public static void useScanner() {

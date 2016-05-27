@@ -2,6 +2,9 @@ package com.basic;
 
 import java.io.*;
 
+//4. File.
+//f. Write a program to copy content of file into another file.
+
 public class FileCopy4f {
 
     public static void fileCopy(String fromFile, String toFile) {

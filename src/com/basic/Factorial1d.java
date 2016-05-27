@@ -2,6 +2,10 @@ package com.basic;
 
 import java.util.Scanner;
 
+//1. Loops:
+//d. Write a program to calculate factorial of a given number. You need to compute the factorial with
+// one logic that uses recursion and another logic without recursion.
+
 public class Factorial1d {
 
     public static int factRecursive(int number) {

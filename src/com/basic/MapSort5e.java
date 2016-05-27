@@ -2,6 +2,9 @@ package com.basic;
 
 import java.util.*;
 
+//5. Collections.
+//e. Write a program to sort a map by value.
+
 public class MapSort5e {
 
     public static TreeMap<String, String> sortByValue(HashMap unsortedmap) {
@@ -9,7 +12,6 @@ public class MapSort5e {
         sortedmap.putAll(unsortedmap);
         return sortedmap;
     }
-
 
     public static void main(String args[]) {
         HashMap<String, String> map = new HashMap<String, String>();
@@ -24,3 +26,4 @@ public class MapSort5e {
         System.out.println("Sorted map: " + tMap);
     }
 }
+

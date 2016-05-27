@@ -1,7 +1,9 @@
 package com.basic;
 
-
 import java.io.*;
+
+//4. File.
+//b. Write a program to count the number of words in a file.
 
 public class FileWordCount4b {
 

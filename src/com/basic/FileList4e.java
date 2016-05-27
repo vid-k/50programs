@@ -2,6 +2,9 @@ package com.basic;
 
 import java.io.File;
 
+//4. File.
+//e. Write a program to show list of all file names in a folder.
+
 public class FileList4e {
 
     public static void DirReader(String path) {
