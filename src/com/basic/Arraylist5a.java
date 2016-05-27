@@ -24,13 +24,15 @@ public class Arraylist5a {
         return arr;
     }
 
-    public static void searchArrayList(ArrayList<String> arr, String str) {
+    public static int searchArrayList(ArrayList<String> arr, String str) {
         System.out.println("-------------\nSearch Arraylist");
+        Collections.sort(arr);
         int bool = Collections.binarySearch(arr, str);
         if (bool < 0)
             System.out.println("\"" + str + "\" does not exist in the ArrayList.");
         else
             System.out.println("\"" + str + "\" exists in the ArrayList.");
+        return bool;
     }
 
     public static void printArrayList(ArrayList<String> arr) {
@@ -49,7 +51,7 @@ public class Arraylist5a {
 
     public static void main(String args[]) {
         ArrayList<String> arr = createArrayList();
-        searchArrayList(arr, "Reno");
+        searchArrayList(arr, "San Francisco");
         printArrayList(arr);
         reverseArrayList(arr);
     }
