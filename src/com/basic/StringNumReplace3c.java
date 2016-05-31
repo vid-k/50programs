@@ -2,7 +2,7 @@ package com.basic;
 
 //3. Strings:
 //c. Write a program which accepts a string like "This is nice" and converts it to a string like "This1 is2 nice3".
-public class StringNumReplace5c {
+public class StringNumReplace3c {
 
     public static String retNumString(String orig){
         String numString = "";

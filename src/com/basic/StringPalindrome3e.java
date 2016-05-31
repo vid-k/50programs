@@ -2,7 +2,7 @@ package com.basic;
 
 //3. Strings:
 //e. Write a program to check for a palindrome string.
-public class StringPalindrome5e {
+public class StringPalindrome3e {
 
     public static boolean isPalindrome(String s) {
         int j = s.length();

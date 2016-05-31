@@ -3,7 +3,7 @@ package com.basic;
 //3. Strings:
 //b. Write a program to find a substring in a given string and then replace it with another string.
 
-public class StringSub5b {
+public class StringSub3b {
 
     public static String subString(String orig, String suborig, String subreplace) {
         return orig.replaceAll("(?i)"+suborig, subreplace);
